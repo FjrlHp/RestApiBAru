@@ -18,5 +18,25 @@
         <action
             android:id="@+id/action_homeFragment_to_detailFragment"
             app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_tambahFragment2"
+            app:destination="@id/tambahFragment2" />
+        <action
+            android:id="@+id/action_homeFragment_to_updateDataFragment"
+            app:destination="@id/updateDataFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateDataFragment"
+        android:name="com.example.restapipertemuan9.view.update.UpdateDataFragment"
+        android:label="fragment_update_data"
+        tools:layout="@layout/fragment_update_data" >
+        <action android:id="@+id/action_updateDataFragment_to_homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tambahFragment2"
+        android:name="com.example.restapipertemuan9.view.tambah.TambahFragment"
+        android:label="fragment_tambah"
+        tools:layout="@layout/fragment_tambah" >
+        <action android:id="@+id/action_tambahFragment2_to_homeFragment" />
     </fragment>
 </navigation>

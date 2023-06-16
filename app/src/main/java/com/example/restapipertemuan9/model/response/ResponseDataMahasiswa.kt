@@ -6,7 +6,7 @@ import com.google.gson.annotations.SerializedName
 
 data class ResponseDataMahasiswa(
     @SerializedName("data")
-    val `data`: List<DataMahasiswa>,
+    val data: List<DataMahasiswa>,
     @SerializedName("status")
     val status: String
 )
